@@ -10,8 +10,6 @@ const outputPath = path.join(OUTPUT_DIR, "team.html");
 
 const render = require("./lib/htmlRenderer");
 
-//our promps will ask how many engineers (always 1 manager) and how many interns
-
 
 
 
