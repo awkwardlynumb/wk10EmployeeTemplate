@@ -5,13 +5,13 @@ class Engineer extends Employee {
     super(name, id, email)
     this.role = "Engineer";
     this.github = github;
+    this.getGithub = function () {
+      return this.github;
+    };
+    this.getRole = function () {
+      return this.role;
+    };
   }
-  getGithub() {
-    return this.github;
-  };
-  getRole() {
-    return this.role;
-  };
 }
 
 module.exports = Engineer;

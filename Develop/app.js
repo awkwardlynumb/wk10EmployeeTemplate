@@ -19,7 +19,7 @@ const initQ = [{
       message: "Please enter employee's name",
     },{
       type: "input",
-      name: "ID",
+      name: "id",
       message: "Please enter employee ID number",
     },{
       type: "input",
